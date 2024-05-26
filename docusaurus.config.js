@@ -79,7 +79,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
+     /**   links: [
           {
             title: 'Docs',
             items: [
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Dikaji Project, Inc.`,
+  */      copyright: `Copyright © ${new Date().getFullYear()} Dikaji Project, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
