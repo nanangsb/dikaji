@@ -10,7 +10,7 @@ export function CardSection({
   description,
   className,
   hasSubSections = false,
-  HeadingTag = 'h3',
+  HeadingTag = 'h3'
 }: {
   id?: string;
   title: string;
@@ -42,7 +42,7 @@ export function Card({
   description,
   to,
   tag,
-  className,
+  className
 }: PropsWithChildren<{
   id?: string;
   icon?: JSX.Element;
