@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Struktur yang Rapi',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_content_structure_re_ebkv.svg').default,
     description: (
       <>
         Dalam mempercepat proses pembelajaran dokumentasi pedoman ini dibuat dengan struktur yang rapi, memilah sesuai kategori yang seharusnya.
