@@ -68,9 +68,9 @@ const config = {
       announcementBar: {
       id: 'under_development',
       content:
-        'Website panduan ini masih dalam proses pengembangan',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
+        '<strong>Website panduan ini masih dalam proses pengembangan.!!!</strong>',
+      backgroundColor: '#FF0000',
+      textColor: '#FFFFFF',
       isCloseable: true,
       },
       navbar: {
