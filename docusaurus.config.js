@@ -129,4 +129,18 @@ const config = {
     }),
 };
 
+module.exports = {
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      },
+    ],
+  ],
+};
+
+
 module.exports = config;
