@@ -138,4 +138,17 @@ const config = {
     }),
 };
 
+export default {
+  themeConfig: {
+    announcementBar: {
+      id: 'under_development',
+      content:
+        'Website panduan ini masih dalam proses pengembangan',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: true,
+    },
+  },
+};
+
 export default config;
