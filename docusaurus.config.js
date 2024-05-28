@@ -65,6 +65,14 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      announcementBar: {
+      id: 'under_development',
+      content:
+        'Website panduan ini masih dalam proses pengembangan',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: true,
+      },
       navbar: {
         title: 'Dikaji',
         logo: {
@@ -138,17 +146,5 @@ const config = {
     }),
 };
 
-export default {
-  themeConfig: {
-    announcementBar: {
-      id: 'under_development',
-      content:
-        'Website panduan ini masih dalam proses pengembangan',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
-      isCloseable: true,
-    },
-  },
-};
 
 export default config;
