@@ -1,5 +1,5 @@
-import React from 'react';
 import clsx from 'clsx';
+import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
@@ -13,16 +13,16 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Otentik itu Penting',
+    title: 'Sumber Otentik',
     Svg: require('@site/static/img/undraw_online_organizer.svg').default,
     description: (
       <>
-        Dikaji bersumber dari website yang telah dipilih dan dipilah, sehingga bisa menyajikan pedoman pembelajaran yang sesuai Al Qur'an dan Sunnah.
+       Dikaji bersumber dari website yang telah dipilih dan dipilah, sehingga bisa menyajikan pedoman pembelajaran yang sesuai Al Qur'an dan Sunnah.
       </>
     ),
   },
   {
-    title: 'Struktur yang Rapi',
+    title: 'Struktur ',
     Svg: require('@site/static/img/undraw_content_structure_re_ebkv.svg').default,
     description: (
       <>
@@ -39,7 +39,7 @@ function Feature({Svg, title, description}) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
     </div>

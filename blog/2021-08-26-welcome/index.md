@@ -1,8 +1,8 @@
 ---
 slug: welcome
-title: Selamat Datang
-authors: [nanang]
-tags: [halo]
+title: Welcome
+authors: [slorber, yangshun]
+tags: [facebook, hello, docusaurus]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
