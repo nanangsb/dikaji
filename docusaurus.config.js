@@ -37,12 +37,6 @@ const config = {
   presets: [
     [
       'classic',
-       {
-          admonitions: {
-            keywords: ['my-custom-admonition'],
-            extendDefaults: true,
-          },
-       },
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -63,6 +57,10 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+           admonitions: {
+            keywords: ['my-custom-admonition'],
+            extendDefaults: true,
+          },
         },
       }),
     ],
