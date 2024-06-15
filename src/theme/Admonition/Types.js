@@ -6,7 +6,7 @@ import AdmonitionTypeWarning from '@theme/Admonition/Type/Warning';
 import AdmonitionTypeDanger from '@theme/Admonition/Type/Danger';
 import AdmonitionTypeCaution from '@theme/Admonition/Type/Caution';
 
-function Box2(props) {
+function Box1(props) {
   return (
     <div style={{margin: '20px', backgroundColor: '#e5f6e6', borderLeft: 'solid green 8px', padding: 15, borderRadius: '10px'}}>
       <h5 style={{fontSize: 20}}>{props.title}</h5>
