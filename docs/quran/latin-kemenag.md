@@ -2,7 +2,11 @@
 Title : Quran Kemenag
 Source: https://quran.kemenag.go.id
 -->
+:::my-custom-admonition[My Title]
 
+It works!
+
+:::
 # 1
 
 Bismillāhir-raḥmānir-raḥīm(i).
