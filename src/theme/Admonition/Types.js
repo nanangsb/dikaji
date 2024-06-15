@@ -8,7 +8,7 @@ import AdmonitionTypeCaution from '@theme/Admonition/Type/Caution';
 
 function Box1(props) {
   return (
-    <div style={{margin: '20px', backgroundColor: '#e5f6e6', borderLeft: 'solid green 8px', padding: 15, borderRadius: '10px'}}>
+    <div style={{margin: '20px', backgroundColor: '#e5f6e6', borderLeft: 'solid green 5px', padding: 15, borderRadius: '10px'}}>
       <h5 style={{fontSize: 20}}>{props.title}</h5>
       <div>{props.children}</div>
     </div>
@@ -16,7 +16,7 @@ function Box1(props) {
 }
 function Box2(props) {
   return (
-    <div style={{margin: '20px', backgroundColor: '#e5f6e6', padding: 10, borderRadius: '10px'}}>
+    <div style={{margin: '20px', backgroundColor: '#e5f6e6', padding: 15, borderRadius: '10px'}}>
       <div style={{fontSize: 20}}>{props.title}</div>
       <div>{props.children}</div>
     </div>
