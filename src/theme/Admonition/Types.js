@@ -29,7 +29,7 @@ const admonitionTypes = {
   warning: AdmonitionTypeWarning,
   danger: AdmonitionTypeDanger,
   'box1': Box1,
-  'box1': Box2,
+  'box2': Box2,
 };
 // Undocumented legacy admonition type aliases
 // Provide hardcoded/untranslated retrocompatible label
