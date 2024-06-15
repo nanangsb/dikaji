@@ -17,7 +17,7 @@ function Box1(props) {
 function Box2(props) {
   return (
     <div style={{margin: '15px', backgroundColor: '#e5f6e6', padding: 15, borderRadius: '10px'}}>
-      <div style={{fontSize: 30}}>{props.title}</div>
+      <div style={{fontSize: 40, direction: 'rtl'}}>{props.title}</div>
       <div>{props.children}</div>
     </div>
   );
