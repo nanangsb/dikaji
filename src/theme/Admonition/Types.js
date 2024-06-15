@@ -6,22 +6,30 @@ import AdmonitionTypeWarning from '@theme/Admonition/Type/Warning';
 import AdmonitionTypeDanger from '@theme/Admonition/Type/Danger';
 import AdmonitionTypeCaution from '@theme/Admonition/Type/Caution';
 
-function MyCustomAdmonition(props) {
+function Box2(props) {
   return (
-    <div style={{margin: '20px', backgroundColor: '#e5f6e6', borderLeft: 'solid green 20px', padding: 10, borderRadius: '10px'}}>
+    <div style={{margin: '20px', backgroundColor: '#e5f6e6', borderLeft: 'solid green 8px', padding: 15, borderRadius: '10px'}}>
       <h5 style={{fontSize: 20}}>{props.title}</h5>
       <div>{props.children}</div>
     </div>
   );
 }
-
+function Box2(props) {
+  return (
+    <div style={{margin: '20px', backgroundColor: '#e5f6e6', padding: 10, borderRadius: '10px'}}>
+      <div style={{fontSize: 20}}>{props.title}</div>
+      <div>{props.children}</div>
+    </div>
+  );
+}
 const admonitionTypes = {
   note: AdmonitionTypeNote,
   tip: AdmonitionTypeTip,
   info: AdmonitionTypeInfo,
   warning: AdmonitionTypeWarning,
   danger: AdmonitionTypeDanger,
-  'my-custom-admonition': MyCustomAdmonition,
+  'box1': Box1,
+  'box1': Box2,
 };
 // Undocumented legacy admonition type aliases
 // Provide hardcoded/untranslated retrocompatible label
