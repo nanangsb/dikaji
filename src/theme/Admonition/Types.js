@@ -8,7 +8,7 @@ import AdmonitionTypeCaution from '@theme/Admonition/Type/Caution';
 
 function MyCustomAdmonition(props) {
   return (
-    <div style={{flex: '1', border: 'solid green', padding: 10, borderRadius: '25px'}}>
+    <div style={{margin: '5px', background: 'light green', border: 'solid green', padding: 10, borderRadius: '25px'}}>
       <h5 style={{fontSize: 30}}>{props.title}</h5>
       <div>{props.children}</div>
     </div>
