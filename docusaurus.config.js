@@ -46,7 +46,7 @@ const config = {
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         admonitions: {
-            keywords: ['box1, box2'],
+            keywords: ['box1', 'box2'],
             extendDefaults: true,
           },
         },
@@ -60,7 +60,7 @@ const config = {
         },
          pages: {
             admonitions: {
-            keywords: ['box1, box2'],
+            keywords: ['box1', 'box2'],
             extendDefaults: true,
           },
          },
