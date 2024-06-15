@@ -37,6 +37,12 @@ const config = {
   presets: [
     [
       'classic',
+       {
+          admonitions: {
+            keywords: ['my-custom-admonition'],
+            extendDefaults: true,
+          },
+       },
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -45,11 +51,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        admonitions: {
-            keywords: ['my-custom-admonition'],
-            extendDefaults: true,
-          },
+        
         },
+         
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
