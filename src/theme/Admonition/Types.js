@@ -8,12 +8,13 @@ import AdmonitionTypeCaution from '@theme/Admonition/Type/Caution';
 
 function MyCustomAdmonition(props) {
   return (
-    <div style={{border: 'solid green', padding: 10}}>
+    <div style={{border: 'solid green', padding: 10, borderRadius: '25px'}}>
       <h5 style={{fontSize: 30}}>{props.title}</h5>
       <div>{props.children}</div>
     </div>
   );
 }
+
 const admonitionTypes = {
   note: AdmonitionTypeNote,
   tip: AdmonitionTypeTip,
