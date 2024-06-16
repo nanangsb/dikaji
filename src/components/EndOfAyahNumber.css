@@ -1,0 +1,12 @@
+/* EndOfAyahNumber.css */
+.end-of-ayah-container {
+  position: relative;
+  display: inline-block;
+}
+
+.end-of-ayah-symbol {
+  position: absolute;
+  right: -20px; /* Sesuaikan posisi simbol */
+  top: 0;
+  font-size: 48px; /* Sesuaikan ukuran simbol */
+}
