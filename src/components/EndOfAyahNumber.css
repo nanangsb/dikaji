@@ -6,8 +6,11 @@
 
 .end-of-ayah-symbol {
   position: absolute;
-  right: -30px; /* Sesuaikan posisi simbol */
+  left: 0; /* Mengatur simbol agar rata kiri */
   top: 0;
-  font-size: 35px; /* Sesuaikan ukuran simbol */
-  text-indent: 20px;
+  font-size: 48px; /* Sesuaikan ukuran simbol */
+}
+
+.end-of-ayah-number {
+  margin-left: 20px; /* Menambahkan spasi sebelum nomor */
 }
