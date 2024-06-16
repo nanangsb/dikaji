@@ -10,3 +10,4 @@ const EndOfAyahNumber = ({ number }) => {
     </div>
   );
 };
+export default EndOfAyahNumber;
