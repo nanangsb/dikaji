@@ -6,7 +6,6 @@ export default function FontSize({children, size}) {
       style={{
         fontSize: size,
         padding: '0.2rem',
-        dir: rtl,
       }}>
       {children}
     </span>
