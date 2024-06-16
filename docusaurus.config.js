@@ -64,6 +64,18 @@ const config = {
             extendDefaults: true,
           },
          },
+         plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'quran',
+        path: 'quran',
+        routeBasePath: 'quran',
+        sidebarPath: './sidebarsQuran.js',
+        // ... other options
+      },
+    ],
+  ],
         theme: {
           customCss: './src/css/custom.css',
            
