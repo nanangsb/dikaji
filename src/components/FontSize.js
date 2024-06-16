@@ -10,5 +10,6 @@ export default function FontSize({children, size}) {
       }}>
       {children}
     </span>
+  <hr />
   );
 }
