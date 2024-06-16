@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function FontSize({children, size}) {
   return (
+    <>
     <span
       style={{
         fontSize: size,
@@ -11,5 +12,6 @@ export default function FontSize({children, size}) {
       {children}
     </span>
   <hr />
+      </>
   );
 }
