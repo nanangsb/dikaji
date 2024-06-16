@@ -6,8 +6,8 @@
 
 .end-of-ayah-symbol {
   position: absolute;
-  right: -20px; /* Sesuaikan posisi simbol */
+  right: -10px; /* Sesuaikan posisi simbol */
   top: 0;
-  font-size: 35px; /* Sesuaikan ukuran simbol */
+  font-size: 25px; /* Sesuaikan ukuran simbol */
   text-indent: 20px;
 }
