@@ -8,5 +8,6 @@
   position: absolute;
   right: -20px; /* Sesuaikan posisi simbol */
   top: 0;
-  font-size: 40px; /* Sesuaikan ukuran simbol */
+  font-size: 35px; /* Sesuaikan ukuran simbol */
+  text-indent: 20px;
 }
