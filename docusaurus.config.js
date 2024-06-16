@@ -64,7 +64,16 @@ const config = {
             extendDefaults: true,
           },
          },
-         plugins: [
+         
+        theme: {
+          customCss: './src/css/custom.css',
+           
+        },
+      }),
+    ],
+  ],
+   
+plugins: [
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -76,14 +85,7 @@ const config = {
       },
     ],
   ],
-        theme: {
-          customCss: './src/css/custom.css',
-           
-        },
-      }),
-    ],
-  ],
-
+   
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
