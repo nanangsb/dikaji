@@ -3,7 +3,7 @@ import React from 'react';
 export default function FontSize({children, size}) {
   return (
     <>
-    <span
+    <div
       style={{
         fontSize: size,
         padding: '0.2rem',
@@ -11,7 +11,7 @@ export default function FontSize({children, size}) {
         direction: 'rtl',
       }}>
       {children}
-    </span>
+    </div>
   <hr />
       </>
   );
