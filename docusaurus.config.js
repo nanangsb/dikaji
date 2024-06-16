@@ -34,7 +34,7 @@ const config = {
     locales: ['id'],
   },
 
-  staticDirectories: ['public', 'static'],
+  staticDirectories: ['static'],
   presets: [
     [
       'classic',
