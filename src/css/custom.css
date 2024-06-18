@@ -30,7 +30,19 @@
 }
 
 @font-face {
-  font-family: 'lpmq';
-  src: url(../../quran/assets/font/LPMQIsepMisbah.ttf);
+  font-family: lpmq;
+  src: url(../../quran/assets/font/LPMQIsepMisbah.eot);
+  src: url(../../quran/assets/font/LPMQIsepMisbah.eot?#iefix) format("embedded-opentype"),
+    url(../../quran/assets/font/LPMQIsepMisbah.ttf) format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: lpmq-isyarat;
+  src: url(../../quran/assets/font/lpmq-isyarat.eot);
+  src: url(../../quran/assets/font/lpmq-isyarat.eot?#iefix)
+      format("embedded-opentype"),
+    url(../../quran/assets/font/lpmq-isyarat.ttf) format("truetype");
+  font-weight: 400;
   font-display: swap;
 }
