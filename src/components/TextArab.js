@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function FontSize({children, size}) {
+export default function TextArab({children}) {
   return (
     <>
     <div
       style={{
-        fontSize: size,
+        fontSize: 'xx-large',
         padding: '0.2rem',
         textAlign: 'right',
         direction: 'rtl',
