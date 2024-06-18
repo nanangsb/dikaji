@@ -31,6 +31,6 @@
 
 @font-face {
   font-family: 'lpmq';
-  src: url(/alamat_font/lpmq.otf) format('opentype');
+  src: url(../../quran/assets/font/LPMQIsepMisbah.ttf) format('Ttuetype');
   font-display: swap;
 }
