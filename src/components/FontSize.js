@@ -9,7 +9,7 @@ export default function FontSize({children, size}) {
         padding: '0.2rem',
         textAlign: 'right',
         direction: 'rtl',
-        fontFamily: 'lpmq, Traditional Arabic, Tahoma, sans-serif',
+        fontFamily: 'lpmq',
       }}>
       {children}
     </div>
