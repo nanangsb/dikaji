@@ -113,6 +113,12 @@ plugins: [
             position: 'left',
             label: 'Panduan',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'quran',
+            position: 'left',
+            label: 'Quran',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/nanangsb/dikaji',
