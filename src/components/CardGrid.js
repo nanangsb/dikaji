@@ -4,11 +4,15 @@ import './CardGrid.css';
 const CardGrid = ({ children }) => {
   return (
     <div className="card-grid">
-        <div className="card">
-          {children}
-        </div>
+      {children}
     </div>
   );
 };
+
+export const Card = ({ children }) => (
+  <div className="card">
+    {children}
+  </div>
+);
 
 export default CardGrid;
