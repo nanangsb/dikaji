@@ -1,6 +1,13 @@
 .card-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px; /* Jarak antara kartu */
+}
+
+@media (min-width: 768px) { /* Layar pad & desktop */
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Lebar minimum 350px, selebihnya mengisi ruang yang tersedia */
+  }
 }
 
 .card {
@@ -9,17 +16,4 @@
   border-radius: 10px;
   padding: 20px;
   /* Gaya lainnya yang Anda inginkan untuk kartu */
-
-  /* Mengatur jumlah kolom berdasarkan lebar viewport */
-  @media (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr); /* 2 kolom di perangkat seluler */
-  }
-
-  @media (min-width: 769px) and (max-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr); /* 3 kolom di tablet */
-  }
-
-  @media (min-width: 1025px) {
-    grid-template-columns: repeat(3, 1fr); /* 3 kolom di desktop */
-  }
 }
