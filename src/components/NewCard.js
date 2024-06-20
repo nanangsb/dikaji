@@ -9,8 +9,8 @@ export default function NewCard({children}) {
         padding: '0.2rem',
         textAlign: 'right',
         direction: 'rtl',
-        width: '300px',
-        border: 'thick solid green',
+        width: '50vw',
+        border: 'thin solid green',
       }}>
       {children}
     </div>
