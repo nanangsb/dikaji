@@ -7,9 +7,10 @@ export default function NewCard({children}) {
         fontSize: 'large',
         padding: '0.2rem',
         margin : '0.2rem',
-        width: '50vw',
+        width: '40vw',
         border: 'thin solid green',
         borderRadius: '20px',
+        dysplay: 'flex',
       }}>
       {children}
     </div>
