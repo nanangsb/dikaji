@@ -1,18 +1,16 @@
 import React from 'react';
 import './CardGrid.css'; 
 
-const CardGrid = ({ children }) => {
-  return (
-    <div className="card-grid">
-      {children}
-    </div>
-  );
-};
-
-export const Card = ({ children }) => (
+const Card = ({ children }) => (
   <div className="card">
     {children}
   </div>
 );
 
-export default CardGrid;
+const CardGrid = ({ children }) => (
+  <div className="card-grid">
+    {children}
+  </div>
+);
+
+export { Card, CardGrid };
