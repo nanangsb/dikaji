@@ -1,14 +1,12 @@
 import React from 'react';
 import './CardGrid.css'; 
 
-const CardGrid = ({ items, children }) => {
+const CardGrid = ({ children }) => {
   return (
     <div className="card-grid">
-      {items.map((item) => (
-        <div key={item.id} className="card">
+        <div className="card">
           {children}
         </div>
-      ))}
     </div>
   );
 };
