@@ -10,6 +10,7 @@ export default function NewCard({children}) {
         textAlign: 'right',
         direction: 'rtl',
         width: '300px',
+        border: 'thick solid green',
       }}>
       {children}
     </div>
