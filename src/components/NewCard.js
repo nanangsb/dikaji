@@ -9,7 +9,7 @@ export default function NewCard({children}) {
         padding: '0.2rem',
         textAlign: 'right',
         direction: 'rtl',
-        fontFamily: 'lpmq',
+        width: '300px',
       }}>
       {children}
     </div>
