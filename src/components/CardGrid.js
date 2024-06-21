@@ -3,12 +3,9 @@ import './CardGrid.css';
 
 const Card = ({ number, title, description, itemCount, location, translation, children }) => (
   <div className="card">
-    <h2>{number}</h2>
-    <h3>{title}</h3>
+    <h2>{number}. {title} - {translation}</h2>
+    <p>{location} • {itemCount} ayat</p>
     <p>{description}</p>
-    <p>Item Count: {itemCount}</p>
-    <p>Location: {location}</p>
-    <p>Translation: {translation}</p>
     {children}
   </div>
 );
